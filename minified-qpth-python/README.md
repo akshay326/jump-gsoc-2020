@@ -6,4 +6,6 @@ This is a highly simplified version of the [original project](https://github.com
 - does not support batch processing
 - uses external solver (`cvxpy`) for solving the QP 
 - uses PDIPB methods for obtaining gradients of the dual program of original QP
-- uses torch for autograd
+- uses torch for autograd  
+
+Run `prof-linear.py` example to try out the code.
